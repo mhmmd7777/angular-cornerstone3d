@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "dev": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -20,6 +21,13 @@
     "@angular/router": "^19.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "@cornerstonejs/calculate-suv": "1.1.0",
+    "@cornerstonejs/core": "^2.3.2",
+    "@cornerstonejs/dicom-image-loader": "^2.3.2",
+    "@cornerstonejs/tools": "^2.3.2",
+    "dcmjs": "0.33.0",
+    "dicom-parser": "1.8.21",
+    "dicomweb-client": "0.10.4",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
