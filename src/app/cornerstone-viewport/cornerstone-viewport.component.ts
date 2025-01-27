@@ -150,9 +150,6 @@ export class CornerstoneViewportComponent implements OnInit {
 
     viewport.render();
 
-    setTimeout(() => {
-      debugger;
-      cache;
-    }, 2000);
+
   }
 }
