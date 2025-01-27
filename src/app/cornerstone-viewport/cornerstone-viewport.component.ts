@@ -151,6 +151,5 @@ export class CornerstoneViewportComponent implements OnInit {
     viewport.render();
 
 
-
   }
 }
