@@ -141,7 +141,7 @@ export class CornerstoneViewportComponent implements OnInit {
 
     const volumeId = 'myVolume';
     const volume = await volumeLoader.createAndCacheVolume(volumeId, {
-      imageIds: imageIds.slice(0, 2),
+      imageIds: imageIds,
     });
 
     (volume as any).load();
@@ -149,6 +149,7 @@ export class CornerstoneViewportComponent implements OnInit {
     viewport.setVolumes([{ volumeId }]);
 
     viewport.render();
+
 
 
   }
